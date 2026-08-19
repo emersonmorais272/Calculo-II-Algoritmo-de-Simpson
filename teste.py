@@ -7,6 +7,7 @@ bc_densidade = pd.read_csv(url)
 # Verificação da base de dados
 
 print(bc_densidade)
+bc_densidade.columns
 
 def definir_h (a, b, n):
     return (b-a)/n
