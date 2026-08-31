@@ -1,13 +1,4 @@
 import numpy as np
-import pandas as pd
-
-url = "https://raw.githubusercontent.com/emersonmorais272/Calculo-II-Algoritmo-de-Simpson/refs/heads/main/bancos_dados_integracao_numerica.xlsx%20-%20Densidade.csv"
-bc_densidade = pd.read_csv(url)
-
-# Verificação da base de dados
-
-print(bc_densidade)
-bc_densidade.columns
 
 def definir_h (a, b, n):
     return (b-a)/n
